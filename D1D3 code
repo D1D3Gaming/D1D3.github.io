@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D1D3 GAMING</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff0000;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #ff0000;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>D1D3 GAMING</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#gaming-content">Gaming Content</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to D1D3 GAMING! I'm Muhammed Rafi, a passionate gamer from Kerala. I enjoy playing Free Fire, and my favorite character is Orion. Join me on my gaming adventures!</p>
+    </section>
+    <section id="gaming-content">
+        <h2>Gaming Content</h2>
+        <p>Here you will find all my gaming highlights, tips, and strategies for Free Fire. Stay tuned for exciting updates and content!</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you want to get in touch, you can reach me at <a href="mailto:example@example.com">example@example.com</a>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 D1D3 GAMING. All rights reserved.</p>
+    </footer>
+</body>
+</html>
